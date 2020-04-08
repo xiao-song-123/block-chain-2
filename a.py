@@ -1,7 +1,8 @@
 from flask import Flask, escape, url_for
-
 from flask import Flask
 app = Flask(__name__)
+
+print("song")
 
 @app.route('/')
 def hello_world():
