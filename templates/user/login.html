@@ -1,11 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-     <meta charset="UTF-8">
+    <style>
+        .alert {
+            color: red;
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body>
 <h1>Login</h1>
-
+     {% for message in get_flashed_messages() %}
+         <div class="alert">{{ message }}</div>
+     {% endfor %}
     <form action="{{ url_for('login') }}" method="post">
         <table>
             <tr><td>用户名：</td><td><input type="text" name="name" /></td></tr>
