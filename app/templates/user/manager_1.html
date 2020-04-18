@@ -1,0 +1,79 @@
+<meta charset="utf-8">
+<html >
+<head>
+    <script src="../../static/js/jquery-2.1.0.min.js"></script>
+</head>
+<body>
+<table>
+        <tr>
+            <td>username</td>
+            <td>password</td>
+            <td>身份标签</td>Z
+        </tr>
+        {% for user in users %}
+        <tr>
+            <td class="username">{{ user.username }}</td>
+            <td>{{ user.password}}</td>
+            <td>{{user.identify_lable}}</td>
+            <td>&nbsp;</td><td><input id="delete" type="submit" name="delete" value="DELETE"  class="delete"/></td>
+            <td>&nbsp;</td><td><input id="update" type="submit" name="update" value="UPDATE"  class="update"/></td>
+        </tr>
+        {% endfor %}
+</table>
+
+
+<tr><td>&nbsp;</td><td><input id="add" type="submit" name="add" value="ADD" class="add"/></td></tr>
+
+
+
+<script>
+    $(function(){
+        $('#add').click(function(){
+           window.location.href="/manager_add_jump"
+        });
+    });
+
+    $(function(){
+        $('.delete').click(function(){
+            var username=$(this).parents("tr").find(".username").text()
+
+            $.ajax({
+                url:'/manager_delete',
+                method:'POST',
+                data:{username:username},
+                dataType:"json",
+                success:function(response){
+                     if(response=='1'){
+                         window.location.href='/manager_jump';
+                     }else{
+                         window.location.href='/manager_jump';
+                     }
+                }
+            })
+
+        });
+    });
+
+$(function(){
+        $('.update').click(function(){
+            var username=$(this).parents("tr").find(".username").text()
+
+            $.ajax({
+                url:'/manager_update_save',
+                method:'POST',
+                data:{username:username},
+                dataType:"json",
+                success:function(response){
+                     if(response=='1'){
+                         window.location.href='/manager_update_jump';
+                     }else{
+                         window.location.href='/manager_jump';
+                     }
+                }
+            })
+
+        });
+    });
+</script>
+</body>
+</html>
