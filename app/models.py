@@ -18,13 +18,13 @@ class User(db.Model):
         self.telephone=telephone
         self.gender=gender
         self.address=address
-
     def __repr__(self):
         return '<User %r>' % self.username
 
+
 class Commodity( db.Model ):
     id = db.Column( db.Integer, primary_key=True )
-    name = db.Column( db.String( 100 ), unique=True, nullable=False )
+    name = db.Column( db.String( 100 ), nullable=False )
     price = db.Column( db.Integer, nullable=False )
     number = db.Column( db.Integer, nullable=False )
     type = db.Column( db.String( 100 ), nullable=True )
@@ -33,16 +33,17 @@ class Commodity( db.Model ):
     data_pd = db.Column( db.DateTime,index=True,default=datetime.utcnow )
     weight = db.Column(db.String(255),nullable=True )
 
-    def __init__(self, name, price, number, type, status, product_id, data_pd, weight):
+    def __init__(self, name, price, number, type, status, product_id,data_pd,weight):
         self.name = name
         self.price = price
         self.number = number
         self.type = type
         self.status = status
         self.product_id = product_id
-        self.data_pd = data_pd
-        self.weight = weight
+        self.data_pd=data_pd
+        self.weight=weight
 
     def __repr__(self):
-        return '<Commodity %r>' % self.username
+        return '<Commodity %r>' % self.name
+
 
