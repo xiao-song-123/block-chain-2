@@ -34,11 +34,12 @@ class Commodity( db.Model ):
     weight = db.Column(db.String(255),nullable=True )
     com = db.Column(db.String(50), nullable=False)  #操作的公司名
     time = db.Column(db.TIMESTAMP, nullable=False)  #操作时间，需要获取当前系统时间
+    dec = db.Column(db.String(255),nullable=False) #目的地
     person = db.Column(db.String(20), nullable=False) #操作人
     tel = db.Column(db.String(30), nullable=False)  #操作人联系方式
     # 后面有注释的字段为需要修改的字段，不可为空，大家共同修改
 
-    def __init__(self, name, price, number, type, status, product_id,data_pd,weight,com,time,person,tel):
+    def __init__(self, name, price, number, type, status, product_id,data_pd,weight,com,time,dec,person,tel):
         self.name = name
         self.price = price
         self.number = number
@@ -49,8 +50,9 @@ class Commodity( db.Model ):
         self.weight=weight
         self.com = com
         self.time = time
+        self.dec =dec
         self.person = person
-        self.person = tel
+        self.tel = tel
 
     def __repr__(self):
         return '<Commodity %r>' % self.name
