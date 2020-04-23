@@ -1,0 +1,122 @@
+{% extends "base_p.html" %}
+
+{% block title %}欢迎来到生产商{% endblock title %}
+
+{% block content %}
+<div class="content">
+            <div class="row">
+                <div class="col-md-4">
+
+                 <section class="card col-xl-6">
+                     <div class="card-body">
+                         <div class="mx-auto d-block">
+                             <img class="mx-auto d-block img-thumbnail" src="../../static/images/{{com.id}}.png" alt="Card image cap">
+                         </div>
+
+                     </div>
+
+                 </section>
+
+             </div>
+                <table  style="border-collapse:separate; border-spacing:30px;" border="0">
+                                         <tbody>
+                                            <tr>
+                                                <th> 商品名</th>
+                                                <td>{{com.name}}</td>
+                                            </tr>
+                                            <tr>
+                                                <th>商品id </th>
+                                                <td>{{com.id}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+            </div>
+        <br>
+            <br>
+            <div class="animated fadeIn">
+
+
+
+                     <div class="row">
+                <div class="col-md-2">
+
+             </div>
+                    <div class="col-md-7" >
+								<section class="card col-xl">
+									<table style="TABLE-LAYOUT: fixed;border-collapse:separate; border-spacing:10px; word-break:break-all; word-wrap:break-all;"  border= "0" bgcolor="	#E1FFFF" >
+                                        <tbody>
+
+                                            <tr>
+                                                <td width="60">区块1 </td>
+                                                <td width="610">{{one.data}}</td>
+
+                                            </tr>
+                                        </tbody>
+
+                                    </table>
+
+								</section>
+						</div>
+
+            </div>
+                <div class="row">
+                <div class="col-md-2">
+
+             </div>
+                    <div class="col-md-7" >
+								<section class="card col-xl">
+									<table style="TABLE-LAYOUT: fixed;border-collapse:separate; border-spacing:10px; word-break:break-all; word-wrap:break-all;"  border= "0" bgcolor="	#E1FFFF" >
+                                        <tbody>
+
+                                            <tr>
+                                                <td width="60">区块2 </td>
+                                                <td width="610">{{two.data}}</td>
+
+                                            </tr>
+                                        </tbody>
+
+                                    </table>
+
+								</section>
+						</div>
+
+            </div>
+                <div class="row">
+                <div class="col-md-2">
+
+             </div>
+                    <div class="col-md-7" >
+								<section class="card col-xl">
+									<table style="TABLE-LAYOUT: fixed;border-collapse:separate; border-spacing:10px; word-break:break-all; word-wrap:break-all;"  border= "0" bgcolor="	#E1FFFF" >
+                                        <tbody>
+
+                                            <tr>
+                                                <td width="60">区块3 </td>
+                                                <td width="610">{{three.data}}</td>
+
+                                            </tr>
+                                        </tbody>
+
+                                    </table>
+
+								</section>
+						</div>
+
+            </div>
+
+                <div class="row">
+                <div class="col-md-4">
+
+             </div>
+                <section class="card col-xl-2">
+                                    <tr> <td> <a href="javascript:history.go(-1);" class="btn btn-primary btn-flat m-b-30 m-t-30">返回主页面</a> </td></tr>
+								</section>
+
+            </div>
+
+            </div><!-- .animated -->
+        </div>
+
+{% endblock content %}
+

@@ -1,0 +1,96 @@
+
+{% extends "base_p.html" %}
+{% block left_panel %}
+     <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li class="menu-title">Extras</li><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>修改商品信息</a>
+                        <ul class="sub-menu children dropdown-menu">
+
+                            <!--<li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">增加用户</a></li>-->
+                            <!--<li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">？？？</a></li>-->
+                        </ul>
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </aside><!-- /#left-panel -->
+{% endblock left_panel %}
+
+
+
+
+{% block content %}<div class="content">
+            <div class="animated fadeIn">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong class="card-title">修改商品信息</strong>
+                            </div>
+                            <div class="card-body">
+                                <form action="{{ url_for('commodity_page.modifycom',id=com.id) }}" method="post">
+     <table id="bootstrap-data-table" text-align="center" class="table table-striped table-bordered">
+        <tr>
+            <th>商品名</th>
+            <td><input type="text" name="name" value="{{com.name}}"/></td>
+        </tr>
+        <tr>
+            <th>商品价格</th>
+            <td><input type="text" name="price" value="{{com.price}}"/></td>
+        </tr>
+        <tr>
+            <th>商品数量</th>
+            <td><input type="text" name="number" value="{{com.number}}"/></td>
+        </tr>
+        <tr>
+            <th>商品类型</th>
+            <td><input type="text" name="type" value="{{com.type}}"/></td>
+        </tr>
+<!--        <tr>-->
+<!--            <td>商品状态：</td>-->
+<!--            <td><input type="text" name="status" value="待发货"/></td>-->
+<!--        </tr>-->
+        <tr>
+            <th>商品编号</th>
+            <td><input type="text" name="product_id" value="{{com.product_id}}"/></td>
+        </tr>
+        <tr>
+            <th>商品生产日期</th>
+            <td><input type="text" name="data_pd" value="{{com.data_pd}}"/></td>
+        </tr>
+        <tr>
+            <th>商品重量</th>
+            <td><input type="text" name="weight" value="{{com.weight}}"/></td>
+        </tr>
+
+            <th>&nbsp;</th>
+
+         <td><input id="update" type="submit" name="update" value="修改"  class="btn btn-primary btn-flat m-b-30 m-t-30"/></td>
+
+        </tr>
+
+    </table>
+</form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div><!-- .animated -->
+        </div>{% endblock content %}
+
+
+
+
+
+
+

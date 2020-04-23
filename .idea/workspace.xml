@@ -2,9 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b440c5-5ee5-4a41-90b0-c0fc417f0d2b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ppp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/static/images/LOGO0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/static/images/lg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/static/js/jquery.qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/static/js/qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/templates/base_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/templates/goods/addcommodity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/templates/goods/commodity_fa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/templates/goods/logistics_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/templates/goods/modify_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/templates/goods/modifycom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/templates/user/manager_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/views/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppp/views/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/block-chain-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/block-chain-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/extension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/picture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/publisher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/cs-skin-elastic.css" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/css/cs-skin-elastic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/lib/chosen/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/lib/chosen/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/lib/chosen/chosen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/lib/chosen/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/lib/datatable/buttons.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/lib/datatable/buttons.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/lib/datatable/dataTables.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/lib/vector-map/jqvmap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/icomoon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/fonts/icomoon/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/admin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/admin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/avatar/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/avatar/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/avatar/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/avatar/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/avatar/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/avatar/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/avatar/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/avatar/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/avatar/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/avatar/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/avatar/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/avatar/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/avatar/64-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/avatar/64-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/avatar/64-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/avatar/64-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/logo.psd" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/images/logo.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/init/chartjs-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/init/chartjs-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/init/datatables-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/init/datatables-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/init/flot-chart-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/init/flot-chart-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/init/fullcalendar-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/init/fullcalendar-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/init/gmap-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/init/gmap-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/init/peitychart-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/init/peitychart-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/init/vector-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/init/vector-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/init/weather-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/init/weather-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery-2.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/jquery-2.1.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery-2.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery-3.5.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/chosen/chosen.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/chosen/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/chosen/chosen.proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/chosen/chosen.proto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/buttons.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/buttons.colVis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/buttons.flash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/buttons.html5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/buttons.print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/dataTables.buttons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/jquery-1.12.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/pdfmake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/data-table/vfs_fonts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/gmap/gmapApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/gmap/gmaps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/lib/gmap/gmaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/vmap.sampledata.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/vmap.sampledata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/js/widgets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/static/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/subscriber.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/base/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/logistics/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/base/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/goods/addcommodity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/goods/commodity_fa.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/base_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/goods/logistics_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/goods/modify_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/goods/commodity_check.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/goods/modifycom.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/addinfo/addinfo_manufacture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/logistics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/logistics/logistics_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/logistics/logistics_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/addinfo/addinfo_logistics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/addinfo/addinfo_warehouse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/login11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/user/manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/manager_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/user/manager_add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/manager_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/manager_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/user/manager_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/templates/user/password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/venv/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/venv/Scripts/pip3.8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/venv/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/venv/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/venv/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/venv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/commodity.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/views/commodity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/views/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/views/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/logistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/views/logistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppp/views/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,30 +147,38 @@
     <session id="954738821">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="py" value="2" />
+          <entry key="html" value="24" />
+          <entry key="png" value="1" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="24" />
+          <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="6" />
           <entry key="py" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="6" />
           <entry key="Python" value="48" />
         </counts>
       </usages-collector>
@@ -48,29 +187,81 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/goods/modify_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="288">
+              <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/base_a.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132" />
+            <state relative-caret-position="264">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/base_p.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/logistics/logistics_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/base/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1276">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/goods/commodity_fa.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/user/manager.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/goods/modifycom.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-528" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ppp/templates/user/password.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-374">
+              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -94,6 +285,16 @@
         <option value="$PROJECT_DIR$/aaa" />
         <option value="$PROJECT_DIR$/li.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/ppp/templates/base_p.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/base_a.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/goods/addcommodity.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/goods/commodity_check.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/logistics/logistics_index.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/user/manager.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/user/manager_add.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/user/manager_update.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/user/password.html" />
+        <option value="$PROJECT_DIR$/ppp/templates/goods/modify_detail.html" />
       </list>
     </option>
   </component>
@@ -103,11 +304,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="654" />
-    <option name="y" value="45" />
-    <option name="width" value="1002" />
-    <option name="height" value="965" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="462" />
+    <option name="y" value="232" />
+    <option name="width" value="1371" />
+    <option name="height" value="966" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -125,7 +326,47 @@
             <path>
               <item name="block-chain-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="block-chain-2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ppp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="block-chain-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="block-chain-2" type="462c0819:PsiDirectoryNode" />
+              <item name="ppp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="block-chain-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="block-chain-2" type="462c0819:PsiDirectoryNode" />
+              <item name="ppp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="block-chain-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="block-chain-2" type="462c0819:PsiDirectoryNode" />
+              <item name="ppp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="block-chain-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="block-chain-2" type="462c0819:PsiDirectoryNode" />
+              <item name="ppp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="block-chain-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="block-chain-2" type="462c0819:PsiDirectoryNode" />
+              <item name="ppp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="block-chain-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="block-chain-2" type="462c0819:PsiDirectoryNode" />
+              <item name="ppp" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,14 +376,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/python/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\block-chain-2\app" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\block-chain-2\ppp\templates\user" />
+      <recent name="D:\block-chain-2\ppp\templates\goods" />
+      <recent name="D:\block-chain-2" />
       <recent name="D:\block-chain-2\app" />
     </key>
   </component>
@@ -172,14 +416,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25788197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.261924" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -188,15 +430,17 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,32 +452,165 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/a.py" />
     <entry file="file://$PROJECT_DIR$/aaa" />
-    <entry file="file://$PROJECT_DIR$/li.py">
+    <entry file="file://$PROJECT_DIR$/li.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_block-chain (1).zip/block-chain/ppp/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="902">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="19" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/venv/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/static/images/logo2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/goods/addcommodity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/goods/commodity_check.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/goods/logistics_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/extension.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/user/manager_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/user/manager_detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/user/manager_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/user/password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/goods/modify_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/base_a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/base_p.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/goods/modifycom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/logistics/logistics_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/base/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1276">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/goods/commodity_fa.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp/templates/user/manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

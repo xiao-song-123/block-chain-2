@@ -1,0 +1,48 @@
+{% extends "base_p.html" %}
+
+{% block title %}欢迎来到生产商{% endblock title %}
+
+{% block content %}
+<div class="content">
+            <div class="animated fadeIn">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong class="card-title">商品列表</strong>
+                            </div>
+                            <div class="card-body">
+                                <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <td>商品编号 </td>
+                                            <td>商品名 </td>
+                                            <td>商品类型 </td>
+                                            <td>商品状态 </td>
+                                            <td>操作</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for com in coms %}<tr>
+                                        <td>{{ com.product_id}}</td>
+                                        <td>{{ com.name }}</td>
+                                        <td>{{ com.type }}</td>
+                                        <td>{{ com.status}}</td>
+                                        <td>
+                                         <a href=" {{ url_for('commodity_page.modify_detail', id=com.id)}} ">查看</a></td>
+                                        </tr>
+                                    {% endfor %}
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div><!-- .animated -->
+        </div>
+{% endblock content %}
+
